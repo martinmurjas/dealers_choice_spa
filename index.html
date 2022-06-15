@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>Acme Express Spa</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="/dist/main.js" defer></script>
+</head>
+<body>
+  <h1>Weekly Workout Plan</h1>
+  <h3>Add Another Workout</h3>
+  <form>
+    <select id="selectDay"></select>
+    <select id="selectWorkout"></select>
+    <input
+      id="inputMeasure"
+      type="number"
+      placeholder="Reps Or Min"
+      required="required"
+    />
+    <button>Submit</button>
+  </form>
+  <div id="weekday-plan"></div>
+</body>
